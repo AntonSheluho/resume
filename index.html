@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet/less" type="text/css" href="./less/styles.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./script.js" defer></script>
     <title>Resume</title>
 </head>
 <body class="body">
@@ -15,64 +15,142 @@
             <div class="title__name">ANTON SHELUKHO</div>
             <div class="title__profession">FUTURE FRONTEND DEVELOPER</div>
             <div class="title__navig">
-                <div id="contacts" class="navig__contacts">CONTACTS</div>
-                <div id="about_me" class="navig__about_me">ABOUT ME</div>
-                <div id="education" class="navig__education">EDUCATION</div>
-                <div id="skills" class="navig__skills">SKILLS</div>
-                <div id="my_projects" class="navig__my_projects">MY PROJECTS</div>
-                <div id="languages" class="navig__languages">LANGUAGES</div>
+                <a href="#contacts" class="navig__contacts navig_link">CONTACTS</a>
+                <a href="#about_me" class="navig__about_me navig_link">ABOUT ME</a>
+                <a href="#education" class="navig__education navig_link">EDUCATION</a>
+                <a href="#skills" class="navig__skills navig_link">SKILLS</a>
+                <a href="#my_projects" class="navig__my_projects navig_link">MY PROJECTS</a>
+                <a href="#languages" class="navig__languages navig_link">LANGUAGES</a>
             </div>
         </div>
     </div>
 
-    <div class="body__contacts">
+    <div id="contacts" class="body__contacts">
         <div class="container">
-            <div class="contacts__photo"></div>
-            <div class="contacts__data">
-                <div class="data__phone"></div>
-                <div class="data__email"></div>
-                <div class="data__linkedIn"></div>
+            <div class="contacts content_box">
+                <div class="contacts__photo"></div>
+                <div class="contacts__data">
+                    <div class="data__phone data_text">Phone: <a class="data_link" href="tel:+375259208485">+375(25) 920-84-85</a></div>
+                    <div class="data__email data_text">Email: <a class="data_link" href="mailto:grinfrend2@gmail.com">grinfrend2@gmail.com</a></div>
+                    <div class="data__linkedIn data_text">LinkedIn: <a class="data_link" href="http://www.linkedin.com/in/anton-shelukho-b4479321a">Anton Shelukho</a></div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="body__about_me">
+    <div id="about_me" class="body__about_me">
         <div class="container">
             <div class="about_me__title title">ABOUT ME</div>
-            <div class="about_me__content">
+            <div class="about_me__content content_box">
                 <div class="about_me__info"></div>
                 <iframe class="about_me__iframe" src="" frameborder="0"></iframe>
             </div>
         </div>
     </div>
 
-    <div class="body__education">
+    <div id="education" class="body__education">
         <div class="container">
             <div class="education__title title">EDUCATION AND WORK EXPERIENCE</div>
-            <div class="education__content">
-
+            <div class="education__content content_box">
+                <div class="education__type">
+                    <div class="education__years">2009 - 2012</div>
+                    <div class="education__called">Baranovichi State Professional Lyceum of Mechanical Engineering, electrician</div>
+                </div>
+                <div class="education__type">
+                    <div class="education__years">July 2014 - August 2021</div>
+                    <div class="education__called">"Stroytrest No. 25", branch "BM No. 172", electrician, 5 category from 2017</div>
+                </div>
+                <div class="education__type">
+                    <div class="education__years">2014 - 2017</div>
+                    <div class="education__called">Brest State University named after A.S. Pushkin, faculty of law, specialty jurisprudence</div>
+                </div>
+                <div class="education__type">
+                    <div class="education__years">June 2021 - August 2021</div>
+                    <div class="education__called">Courses FD1 "web site development using HTML, CSS, JavaScript" from&nbsp
+                        <a class="IT_link" target="_blank" href="https://www.it-academy.by/course/front-end-developer/">IT-Academy</a>
+                    </div>
+                </div>
+                <div class="education__type">
+                    <div class="education__years">September 2021 - January 2022</div>
+                    <div class="education__called">Courses FD2 "JavaScript application development" from&nbsp 
+                        <a class="IT_link" target="_blank" href="https://www.it-academy.by/course/front-end-developer/">IT-Academy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="body__skills">
+    <div id="skills" class="body__skills">
         <div class="container">
             <div class="skills__title title">SKILLS IN PROGRAMMING</div>
-            <div class="skills__content"></div>
+            <div class="skills__content content_box">
+                <ul>
+                    <li class="skills__type">Studied javascript on my own on 
+                        <a class="skill_link" target="_blank" href="https://learn.javascript.ru/">learn.javascript.ru</a>
+                    </li>
+                    <li class="skills__type">Web site development using HTML, CSS, JavaScript
+                        <div>
+                            <img class="skills__img" src="./img/logo-it-academy.png" alt="img">
+                            <img class="skills__img" src="./img/images.jpg" alt="img">
+                        </div>
+                    </li>
+                    <li class="skills__type">JavaScript application development
+                        <div>
+                            <img class="skills__img" src="./img/logo-it-academy.png" alt="img">
+                            <img class="skills__img" src="./img/2GADRz4E6CxENr7vnYcS.png" alt="img">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="body__my_projects">
+    <div id="my_projects" class="body__my_projects">
         <div class="container">
             <div class="my_projects__title title">MY PROJECTS</div>
-            <div class="my_projects__content"></div>
+            <div class="my_projects__content content_box">
+                <div class="butt__left">
+                    <img class="slider__arrow_left arrow" src="./img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg" alt="img">
+                </div>
+                <div class="slider">
+                    <div class="slide1 slide">
+                        <a href="https://antonsheluho.github.io/Diplom/" target="_blank">
+                            <img class="slide__img" src="./img/progect_1.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slide2 slide">
+                        <a href="#" target="_blank">
+                            <img class="slide__img" src="./img/progect_2.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+                <div class="butt__right">
+                    <img class="slider__arrow_right arrow" src="./img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg" alt="img">
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="body__languages">
+    <div id="languages" class="body__languages">
         <div class="container">
             <div class="languages__title title">LANGUAGES</div>
-            <div class="languages__content"></div>
+            <div class="languages__content content_box">
+                <ul>
+                    <li class="lang__text">Russian</li>
+                    <li class="lang__text">Belarusian</li>
+                    <li class="lang__text">English A2 (tutor assessment) </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="body__footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__data_create">Creation date 13.12.21 
+                    <a class="data_create__link" href="https://github.com/">GitHub</a>
+                </div>
+            </div>
         </div>
     </div>
 
