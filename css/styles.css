@@ -47,9 +47,14 @@ html {
 }
 
 .contacts {
-    height: 370px;
+    height: 417px;
     display: grid;
-    grid: 1fr / 40% 60%
+    grid: 100% / 40% 60%
+}
+
+.my_photo {
+    width: 100%;
+    height: 100%;
 }
 
 .contacts__data {
