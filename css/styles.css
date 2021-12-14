@@ -99,10 +99,10 @@ html {
 
 .bigList {
     position: fixed;
-    top: 8vh;
-    left: 25vw;
-    width: 900px;
-    height: 800px;
+    top: 20vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
     z-index: 5;
     transition-duration: 300ms;
 }
