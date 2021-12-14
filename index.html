@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./script.js" defer></script>
+    <script src="./scriptSlider.js" defer></script>
+    <script src="./scriptCertificate.js" defer></script>
     <title>Resume</title>
 </head>
 <body class="body">
@@ -32,7 +33,7 @@
                 <div class="contacts__data">
                     <div class="data__phone data_text">Phone: <a class="data_link" href="tel:+375259208485">+375(25) 920-84-85</a></div>
                     <div class="data__email data_text">Email: <a class="data_link" href="mailto:grinfrend2@gmail.com">grinfrend2@gmail.com</a></div>
-                    <div class="data__linkedIn data_text">LinkedIn: <a class="data_link" href="http://www.linkedin.com/in/anton-shelukho-b4479321a">Anton Shelukho</a></div>
+                    <div class="data__linkedIn data_text">LinkedIn: <a class="data_link" target="_blank" href="http://www.linkedin.com/in/anton-shelukho-b4479321a">Anton Shelukho</a></div>
                 </div>
             </div>
         </div>
@@ -92,6 +93,7 @@
                         <div>
                             <img class="skills__img" src="./img/logo-it-academy.png" alt="img">
                             <img class="skills__img" src="./img/images.jpg" alt="img">
+                            <img id="certificate" class="skills__img" src="./img/sertificate.png" alt="img">
                         </div>
                     </li>
                     <li class="skills__type">JavaScript application development
@@ -114,14 +116,16 @@
                 </div>
                 <div class="slider">
                     <div class="slide1 slide">
-                        <a href="https://antonsheluho.github.io/Diplom/" target="_blank">
+                        <a class="slide__link" href="https://antonsheluho.github.io/Diplom/" target="_blank">
                             <img class="slide__img" src="./img/progect_1.png" alt="img">
                         </a>
+                        <div class="slide__text">Diploma project from the course of "Web site development using HTML, CSS, JavaScript"</div>
                     </div>
                     <div class="slide2 slide">
-                        <a href="#" target="_blank">
+                        <a class="slide__link" href="#" target="_blank">
                             <img class="slide__img" src="./img/progect_2.png" alt="img">
                         </a>
+                        <div class="slide__text">Diploma project from the course of "JavaScript application development"</div>
                     </div>
                 </div>
                 <div class="butt__right">
