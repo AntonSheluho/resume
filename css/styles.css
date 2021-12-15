@@ -22,7 +22,7 @@ html {
     font-size: 40px;
     font-weight: 900;
     color: #444d7d;;
-    width: 50vw;
+    width: 100%;
     height: 10vh;
     display: flex;
     align-items: flex-end;
@@ -186,6 +186,131 @@ html {
     align-items: flex-end;
 }
 
-@media screen {
-    
+@media (max-width: 1100px) {
+    .container {
+        width: 750px;
+    }
+
+    .title__name {
+        height: 10vh;
+    }
+
+    .title__profession {
+        height: 7vh;
+    }
+
+    .contacts {
+        height: 336px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .education__called {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 350px;
+    }
+
+    .body__title {
+        height: 195px;
+        position: relative;
+    }
+
+    .title__name {
+        height: 14vh;
+    }
+
+    .title__profession {
+        height: 8vh;
+    }
+
+    .burger {
+        height: 45px;
+        width: 62px;
+        left: 36vh;
+        top: 33vw;
+        background: url(../img/burger_122704.png) no-repeat;
+    }
+
+
+    .title__navig {
+        position: fixed;
+        height: 209px;
+        flex-direction: column;
+        background-color: grey;
+        width: 33vw;
+        left: 90vh;
+        transition-duration: 300ms;
+    }
+
+    .contacts {
+        height: 158px;
+    }
+
+    .contacts__data {
+        padding-left: 10px;
+    }
+
+    .data_text {
+        font-size: 13px;
+    }
+
+    .data_link {
+        padding-left: 5px;
+    }
+
+    .title {
+        font-size: 29px;
+        height: 14vh;
+        text-align: center;
+    }
+
+    .education__type {
+        padding-left: 15px;
+        height: 129px;
+    }
+
+    .education__called {
+        font-size: 21px;
+        height: 80px;
+        display: block;
+    }
+
+    .IT_link {
+        font-size: 20px;
+    }
+
+    .butt__right {
+        width: 12%;
+    }
+
+    .butt__left {
+        width: 12%;
+    }
+
+    .slider {
+        width: 76%;
+    }
+
+    .slide__img {
+        height: 140px;
+    }
+
+    .slide__text {
+        width: 100%;
+    }
+
+    .activeBurger {
+        opacity: 0.5;
+    }
+
+    .activeTitleNavig {
+        left: 31vh;
+    }
 }
