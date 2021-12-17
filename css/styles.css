@@ -244,6 +244,7 @@ html {
 
     .title__profession {
         height: 8vh;
+        font-size: 20px;
     }
 
     .burger {
@@ -274,7 +275,7 @@ html {
     }
 
     .data_text {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .data_link {
@@ -296,8 +297,12 @@ html {
         height: 129px;
     }
 
+    .education__years {
+        font-size: 20px;
+    }
+
     .education__called {
-        font-size: 21px;
+        font-size: 16px;
         height: 80px;
         display: block;
     }
