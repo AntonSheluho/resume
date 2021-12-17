@@ -81,6 +81,21 @@ html {
     font-weight: 600;
 }
 
+.about_me__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me__info {
+
+}
+
+.about_me__iframe {
+    width: 80%;
+    height: 448px;
+}
+
 .education__content {
     padding: 10px;
 }
