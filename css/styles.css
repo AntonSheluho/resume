@@ -96,6 +96,16 @@ html {
     padding: 10px;
 }
 
+.educationalLadderAndWorkExperience__title {
+    font-size: 24px;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
 .education__type {
     height: 110px;
     padding-left: 30px;
@@ -290,6 +300,10 @@ html {
 
     .about_me__iframe {
         height: 196px;
+    }
+
+    .educationalLadderAndWorkExperience__title {
+        font-size: 20px;
     }
 
     .education__type {
