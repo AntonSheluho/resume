@@ -8,7 +8,7 @@ const slidesArray = [
                     </a>
                     <div class="slide__text">Diploma project from the course of "Web site development using HTML, CSS, JavaScript"</div>
                     `,
-                    `<a class="slide__link" href="#" target="_blank">
+                    `<a class="slide__link" href="https://antonsheluho.github.io/JavaScript-diplom/" target="_blank">
                         <img class="slide__img" src="./img/progect_2.png" alt="img">
                     </a>
                     <div class="slide__text">Diploma project from the course of "JavaScript application development"</div>
